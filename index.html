@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Digital Responsive - Kirana Dewi Aurellia</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="page-wrapper">
+
+        <!-- Kartu Profil Utama -->
+        <article class="profile-card">
+
+            <!-- Kolom Kiri / Header Profil -->
+            <header class="card-aside">
+
+                <button id="btnToggleTema" class="btn-tema">
+                    ☀️ Ganti Mode
+                </button>
+
+                <button id="langToggle" class="btn-lang">
+                    🌐 EN
+                </button>
+
+                <div class="avatar-box">
+                    👩🏻‍💻
+                </div>
+
+                <h1 class="student-name">
+                    Kirana Dewi Aurellia
+                </h1>
+
+                <p class="student-role" data-id="Junior Web Developer" data-en="Junior Web Developer">
+                    Junior Web Developer
+                </p>
+
+                <p class="student-school" data-id="SMKS Brantas Karangkates — X PPLG 1" data-en="SMKS Brantas Karangkates — X PPLG 1">
+                    SMKS Brantas Karangkates — X PPLG 1
+                </p>
+
+                <a href="mailto:kiranapplg1@gmail.com"
+                id="btnKontak"
+                   class="btn-contact"
+                   data-id="Kirim Pesan"
+                   data-en="Send Message">
+                    Kirim Pesan
+                </a>
+
+            </header>
+
+            <!-- Kolom Kanan / Konten Detail -->
+            <section class="card-content">
+
+                <!-- Tentang Saya -->
+                <div class="bio-section">
+
+                    <h2 class="section-heading" data-id="Tentang Saya" data-en="About Me">
+                        Tentang Saya
+                    </h2>
+
+                    <p class="bio-text"
+                       data-id="Siswa kelas 10 Rekayasa Perangkat Lunak yang berfokus mendalami arsitektur Front-End modern, tata letak CSS Flexbox, serta prinsip Mobile-First Responsive Design standar industri."
+                       data-en="A 10th-grade Software Engineering student focused on modern Front-End architecture, CSS Flexbox layout, and industry-standard Mobile-First Responsive Design principles.">
+                        Siswa kelas 10 Rekayasa Perangkat Lunak
+                        yang berfokus mendalami arsitektur Front-End
+                        modern, tata letak CSS Flexbox, serta prinsip
+                        Mobile-First Responsive Design standar industri.
+                    </p>
+
+                </div>
+
+                <!-- Keahlian dan Kompetensi -->
+                <div class="skills-section">
+
+                    <h2 class="section-heading" data-id="Keahlian &amp; Kompetensi" data-en="Skills &amp; Competencies">
+                        Keahlian &amp; Kompetensi
+                    </h2>
+
+                    <div class="skill-matrix">
+
+                        <div class="skill-badge" data-id="HTML5 Semantic" data-en="HTML5 Semantic">
+                            HTML5 Semantic
+                        </div>
+
+                        <div class="skill-badge" data-id="CSS3 Flexbox" data-en="CSS3 Flexbox">
+                            CSS3 Flexbox
+                        </div>
+
+                        <div class="skill-badge" data-id="Responsive Design" data-en="Responsive Design">
+                            Responsive Design
+                        </div>
+
+                        <div class="skill-badge" data-id="Media Queries" data-en="Media Queries">
+                            Media Queries
+                        </div>
+
+                        <div class="skill-badge" data-id="Chrome DevTools" data-en="Chrome DevTools">
+                            Chrome DevTools
+                        </div>
+
+                        <div class="skill-badge" data-id="Git &amp; GitHub (Next)" data-en="Git &amp; GitHub (Next)">
+                            Git &amp; GitHub (Next)
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+
+<div id="modalKontak" class="modal-overlay">
+    <div class="modal-box">
+        <h2 data-id="Kirim Pesan" data-en="Send Message">Kirim Pesan</h2>
+        <p data-id="Silakan hubungi saya melalui email: kiranapplg1@gmail.com"
+           data-en="Please contact me via email: kiranapplg1@gmail.com">
+           Silakan hubungi saya melalui email:kiranapplg1@gmail.com
+        </p>
+
+        <button id="btnTutupModal" class="btn-tutup" data-id="Tutup" data-en="Close">
+            Tutup
+        </button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
