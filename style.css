@@ -1,4 +1,4 @@
-* {
+z* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -301,7 +301,7 @@ body.light-mode .btn-lang:hover {
 }
 
 .skill-badge:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px); 
 }
 
 .skill-badge.active {
